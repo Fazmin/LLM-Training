@@ -1,4 +1,6 @@
 #Install python transformers module first
+#this also requires the torch library.
+#pip3 install torch torchvision torchaudio
 #pip3 install transformers
 
 from transformers import GPT2LMHeadModel, GPT2Tokenizer
