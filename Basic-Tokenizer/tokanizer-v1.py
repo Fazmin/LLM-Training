@@ -30,6 +30,7 @@ class SimpleTokenizer:
         return tokens
 
 tokenizer = SimpleTokenizer(split_char=' ', remove_punctuation=True, to_lower=True)
-tokens = tokenizer.tokenize_file('path_to_your_file.txt')
+
+tokens = tokenizer.tokenize_file('full path to your file')
 print(tokens)
 
